@@ -1,3 +1,83 @@
+
+
+body{
+  background-color:#053832;
+  transition: background-color 0.5s;
+  opacity: .9;
+}
+
+body.Connections{
+  background-color:#053832;
+}
+
+body.About{
+  background-color:#1E4540;
+}
+
+body.Home{
+  background-color:#053832;
+}
+
+body.Projects{
+  background-color:#1E4540;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Navigation{
+  max-height: 100px;
+  width: 100%;
+  background-color: #4DD1C2;
+  padding: 0px 0px;
+  padding-top:5px;
+  text-decoration: none;
+  transition: all 1s;
+  
+  box-shadow: 0px 4px 6px 2px black;
+}
+
+.Navigation.Connections{
+  background-color:#4DD1C2;
+  
+}
+
+.Navigation.About{
+  background-color:#A4E0D9;
+  
+}
+
+.Navigation.Home{
+  background-color:#4DD1C2;
+  
+}
+
+.Navigation.Projects{
+  background-color:#A4E0D9;
+  
+}
+
+a{
+  text-align: center;
+}
+
+.Switch{
+  z-index:0;
+  border-radius: 0px;
+  width:80px;
+  height:40px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color .25s;
+  opacity: 1;
+}
+
 .App {
   text-align: center;
 }
@@ -13,21 +93,129 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.NavElements{
+  top:5px;
+  position: relative;
+  left:25%;
+  width:50%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  list-style: none;
+  padding:0px;
+  margin:0px;
+  
 }
+
+.NavElements li :hover{
+  background-color: white;
+  
+}
+
+
+.NavElements li{
+  color: #053832;
+  margin: 1% auto;
+  
+}
+
+.links{
+  top:0px;
+  position: absolute;
+  right:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.links img{
+  padding:10px;
+  height:30px;
+}
+
+.github{
+  filter: sepia(100%) saturate(202%) brightness(54%) hue-rotate(131deg);
+}
+.discord img{
+  filter: sepia(100%) saturate(202%) brightness(54%) hue-rotate(131deg);
+}
+
+
+.discord .tooltipText{
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+  font-size: 12px;
+  width: auto;
+  top: 100%;
+  left: 50%;
+  padding: 4px;
+  margin-left:-30px
+}
+.discord:hover .tooltipText{
+  visibility:visible;
+}
+
+:visited{
+  color:black;
+}
+
 
 .App-link {
   color: #61dafb;
 }
-
+/*
+Iphone X and up
+*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait){ 
+    body.Home{
+      background-color: red;
+      overflow-x: hidden;
+      overflow-y: scroll; 
+    }
+    .mainSection{
+      transform: scale(1, .95, 1);
+    }
+    .links{
+      position: fixed;
+      left:90%;
+      top:94%;
+      
+    }
+    .discord{
+      background-color: rgba(0, 0, 0, .2);
+      padding:1px;
+    }
+    .github{
+      background-color: rgba(0, 0, 0, .4);
+      padding:1px;
+    }
+}
+/*
+landscape Iphone X
+*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .links{
+      
+    }
+  }
+  
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,21 @@
+.projectDump{
+    margin: 20px auto;
+    flex-direction: column;
+    display:flex;
+    width:70%;
+}
+.project{
+    color: #A4E0D9;
+    padding:10px;
+}
+
+.project img{
+    float: left;
+    width:20%;
+    margin-right: 10%;
+    
+}
+
+.project:nth-of-type(odd) {
+    background-color: #053832;
+  }

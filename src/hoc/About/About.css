@@ -1,0 +1,33 @@
+
+.header{
+    width:70%;
+    color: #A4E0D9;
+    margin: 0 auto;
+    font-size: 50px;
+    text-shadow: 2px 4px 3px black;
+}
+.mainSection{
+    padding:10px;
+    border-radius: 3px;
+    margin: 0 auto;
+    min-height: 200px;
+    width:80%;
+    background-color: rgba(255, 255, 255, .1);
+    color: #A4E0D9;
+}
+.meImg{
+    padding-right:20px;
+    width:40%;
+    float: right;
+   
+}
+.quickInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sideInfo{
+    padding: 0 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .1);
+}

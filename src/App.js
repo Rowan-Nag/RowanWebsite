@@ -15,6 +15,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+
+
 var currentClass = "Home";
 function switchClass(nameClass){
   let body = document.getElementsByTagName("body")[0];

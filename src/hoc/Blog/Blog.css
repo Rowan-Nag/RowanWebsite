@@ -3,9 +3,8 @@
     color: #A4E0D9;
     margin: 0 auto;
     font-size: 50px;
-    text-shadow: 2px 4px 3px black;
+    text-shadow: 1px 3px 2px black;
 }
-
 
 .main{
     display:flex;
@@ -17,6 +16,7 @@
     text-align: center;
 }
 .blogPost{
+    font-size:14px;
     min-width: 600px;
     padding: 10px;
     border-radius: 4px;

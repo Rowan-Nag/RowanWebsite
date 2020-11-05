@@ -2,24 +2,8 @@
 
 body{
   background-color:#053832;
-  transition: background-color 0.5s;
+
   opacity: .9;
-}
-
-body.Connections{
-  background-color:#053832;
-}
-
-body.About{
-  background-color:#1E4540;
-}
-
-body.Home{
-  background-color:#053832;
-}
-
-body.Projects{
-  background-color:#1E4540;
 }
 
 .App-header {
@@ -41,27 +25,7 @@ body.Projects{
   text-decoration: none;
   transition: all 1s;
   
-  box-shadow: 0px 4px 6px 2px black;
-}
-
-.Navigation.Connections{
-  background-color:#4DD1C2;
-  
-}
-
-.Navigation.About{
-  background-color:#A4E0D9;
-  
-}
-
-.Navigation.Home{
-  background-color:#4DD1C2;
-  
-}
-
-.Navigation.Projects{
-  background-color:#A4E0D9;
-  
+  box-shadow: 0px 1px 4px 2px black
 }
 
 a{
@@ -86,14 +50,6 @@ a{
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
 
 .NavElements{
   top:5px;
@@ -172,10 +128,19 @@ a{
 .App-link {
   color: #61dafb;
 }
+
+.sidebar{
+  width:13%;
+  height:100%;
+  background-image: url('../src/res/RowanText.png');
+  position:absolute;
+  background-repeat: repeat-y;
+}
+
 /*
 Iphone X and up
 */
-@media only screen 
+/* @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
@@ -206,6 +171,7 @@ Iphone X and up
 /*
 landscape Iphone X
 */
+/*
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -214,7 +180,7 @@ landscape Iphone X
     .links{
       
     }
-  }
+  } */
   
 @keyframes App-logo-spin {
   from {

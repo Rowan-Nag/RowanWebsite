@@ -44,15 +44,11 @@ export default function App() {
                 
             </div> */}
             <ul className={"NavElements"}>
-              <li className={"homeLink"} onClick={()=>{
-                switchClass("Home");
-              }}>
+              <li className={"homeLink"}>
                 
                 <Link to="/" style={{ textDecoration: 'none' }} ><div className="Switch">Home</div></Link>
               </li>
-              <li className={"aboutLink"} onClick={()=>{
-                switchClass("About");
-              }}>
+              <li className={"aboutLink"}>
                 <Link to="/blog" style={{ textDecoration: 'none' }}><div className="Switch">Blog</div></Link>
               </li>
               {/* <li className={"connectionsLink"} onClick={()=>{
@@ -60,9 +56,7 @@ export default function App() {
               }}>
                 <Link to="/gallery" style={{ textDecoration: 'none'}}><div className="Switch">Gallery</div></Link>
               </li> */}
-              <li className={"projectsLink"} onClick={()=>{
-                switchClass("Projects");
-              }}>
+              <li className={"projectsLink"}>
                 <Link to="/projects" style={{ textDecoration: 'none' }}><div className="Switch">Projects</div></Link>
               </li>
             </ul>

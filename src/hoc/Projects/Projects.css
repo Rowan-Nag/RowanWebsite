@@ -3,6 +3,7 @@
     flex-direction: column;
     display:flex;
     width:70%;
+    font-size: 14px;
 }
 .project{
     color: #A4E0D9;
@@ -17,5 +18,5 @@
 }
 
 .project:nth-of-type(odd) {
-    background-color: #053832;
+    background-color: #1E4540;
   }

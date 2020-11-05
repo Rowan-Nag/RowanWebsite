@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./About.css";
-import puffin from "../../res/puffin.jpg"
+import puffin from "../../res/puffin.jpg";
+import rowanText from "../../res/RowanText.png";
 
 class Aboutc extends React.Component{
     constructor(props){
@@ -14,15 +15,31 @@ class Aboutc extends React.Component{
     render(){
         return(
             <div>
+           
+            
+          
             <h1 className="header"><i>About Me</i></h1>
             <div className="mainSection">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ornare est sed elit fermentum auctor id in est. Fusce in ullamcorper odio. Duis porta pellentesque nibh, ac ultricies elit efficitur ac. Aenean sed diam enim. Duis ac porttitor nunc. Nullam pretium ipsum quis mauris feugiat ultrices. 
+                I'm an all-round programmer and web developer that enjoys making projects that involve anything I already do! I'm also interested in other topics like physics and even environmental science, however much of my time is spent either focusing on schoolwork or playing video games with my buddies. 
            <br/>
            <br/>
            <div className="quickInfo">
-               <div className="sideInfo">My Name is Rowan</div>
-               <img src={puffin} className="meImg"></img>
+               <div className="sideInfo">
+                   <i>Favorite Language?</i><br/>
+                   Python
+                   <br/>
+                   <br/>
+                   <i>Favorite Food?</i><br/>
+                   Sushi
+                   <br/>
+                   <br/>
+                   <i>Favorite Pokemon?</i><br/>
+                   Gible
+                   
+               </div>
                
+                <img src={puffin} className="meImg"></img>
+                
                </div>
            
            

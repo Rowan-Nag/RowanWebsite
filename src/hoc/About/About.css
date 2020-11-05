@@ -1,17 +1,20 @@
-
+.sidebar{
+    background-image: url('../../res/RowanText.png');
+}
 .header{
-    width:70%;
+    width:60%;
     color: #A4E0D9;
     margin: 0 auto;
     font-size: 50px;
-    text-shadow: 2px 4px 3px black;
+    text-shadow: 1px 3px 2px black;
 }
 .mainSection{
+    font-size: 12px;
     padding:10px;
     border-radius: 3px;
     margin: 0 auto;
     min-height: 200px;
-    width:80%;
+    width:70%;
     background-color: rgba(255, 255, 255, .1);
     color: #A4E0D9;
 }

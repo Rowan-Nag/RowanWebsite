@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Blog from "./hoc/Blog/Blog"
 import About from "./hoc/About/About";
@@ -62,7 +61,10 @@ export default function App() {
             </ul>
           </div>
           <div className="links">
-              <img src={github} className = "github"></img>
+              
+              <a href="https://github.com/Rowan-Nag">
+                <img src={github} className = "github"></img>
+              </a>
               <div className="discord">
                 <img src={discord} className = "discord"></img>
                 <span className="tooltipText">ProtoChicken#1370</span>

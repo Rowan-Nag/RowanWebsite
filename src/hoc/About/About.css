@@ -1,5 +1,4 @@
 .sidebar{
-    background-image: url('../../res/RowanText.png');
 }
 .header{
     width:60%;
@@ -9,7 +8,7 @@
     text-shadow: 1px 3px 2px black;
 }
 .mainSection{
-    font-size: 12px;
+    font-size: 16px;
     padding:10px;
     border-radius: 3px;
     margin: 0 auto;

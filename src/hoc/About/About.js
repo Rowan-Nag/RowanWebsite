@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import "./About.css";
 import puffin from "../../res/puffin.jpg";
-import rowanText from "../../res/RowanText.png";
 
 class Aboutc extends React.Component{
     constructor(props){

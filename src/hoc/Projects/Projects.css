@@ -6,7 +6,7 @@
     font-size: 16px;
 }
 .project{
-    color: #A4E0D9;
+    color: #000000;
     padding:10px;
 }
 
@@ -18,5 +18,8 @@
 }
 
 .project:nth-of-type(odd) {
-    background-color: #1E4540;
+    background-color: rgb(177 203 207);
+  }
+  .project:nth-of-type(even) {
+    background-color: #d3d3d3;
   }

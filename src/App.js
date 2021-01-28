@@ -16,23 +16,6 @@ import {
 } from "react-router-dom";
 
 
-
-var currentClass = "Home";
-function switchClass(nameClass){
-  let body = document.getElementsByTagName("body")[0];
-  let appHeader = document.getElementsByClassName("Navigation")[0];
-  if(body.classList.contains(currentClass)){
-    body.classList.remove(currentClass);
-  }if(appHeader.classList.contains(currentClass)){
-    appHeader.classList.remove(currentClass);
-  }
-  body.classList.add(nameClass);
-  appHeader.classList.add(nameClass);
-  currentClass = nameClass
-
-}
-
-
 export default function App() {
   return (
     <Router>

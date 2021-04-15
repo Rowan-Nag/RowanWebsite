@@ -16,14 +16,18 @@ class Aboutc extends React.Component{
             <div>
                 <h1 className="header"><i>About Me</i></h1>
                 <div className="mainSection">
-                    I'm really just a teenager who enjoys learning new things! Most of my time is taken up by schoolwork or playing video games with my friends, and some of it is spent programming!
+                    Hello!
                     <br/>
-                    I'm also a all-round programmer who doesn't really know what they want to do.
-                    I'm interested in a range of topics ranging between web development, machine learning, and tool design for the video games I play!
+                    My name is Rowan Nag, and I'm a teenager from silicon valley.
+                    <br/>
+                    I currently go to high school, and am interested in many different topics, both programming and non-programming related.
+                    <br/>
+                    This includes environmental science, physics, web development. 
+                    <br/>
+                    I also want to get involved with machine learning and astrophotography.
+                    <br/>
                     <br/>
                     
-                    <br/>
-                    <br/>
                     <div className="quickInfo">
                         <div className="sideInfo">
                             <i>Favorite Language?</i><br/>

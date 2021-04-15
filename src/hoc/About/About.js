@@ -49,7 +49,9 @@ class Aboutc extends React.Component{
                         </div>
 
                     </div>
-                    Feel free to take a quick look around this site, there's not much but I'm hoping to fill it with both my projects and findings in the future!
+
+
+                    
                 </div>
             </div>
         )

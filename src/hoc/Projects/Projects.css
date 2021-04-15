@@ -6,8 +6,11 @@
     font-size: 16px;
 }
 .project{
+    margin: 10px auto;
+    border-radius: 6px;
     color: #000000;
     padding:10px;
+    line-height: 1.8;
 }
 
 .project img{
@@ -15,6 +18,10 @@
     width:20%;
     margin-right: 10%;
     
+}
+
+.projectTitle{
+    color:rgb(54, 51, 51)
 }
 
 .project:nth-of-type(odd) {

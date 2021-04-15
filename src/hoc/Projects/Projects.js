@@ -28,7 +28,7 @@ class Projectsc extends React.Component{
                 </div>
                 
                 <div className="project">
-                    <a href="https://github.com/Rowan-Nag/Sliders"><img src={brawlLiveImg}></img>
+                    <a href="https://github.com/Rowan-Nag/Brawl-Live"><img src={brawlLiveImg}></img>
                     <h2 className="projectTitle">Brawl Live</h2></a>
                     Brawl Live was a game I worked in with a friend of mine, and was one of my first large projects - I built this before I started learning
                     react, so the only framework I used was firebase. With firebase, we were able to give the game live combat functionalities inspired by 
